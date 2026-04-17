@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<class name="Fighting-Man">
+	<prime_req>Strength</prime_req>
+	<limitations>
+		<race />
+		<weapon />
+		<armor />
+		<magic>No Spells</magic>
+	</limitations>
+	<levels>
+		<level title="Veteran" experience="0" hitdice="1d6+1" fighting_capability="1 Man +1">1</level>
+		<level title="Warrior" experience="2000" hitdice="2d6" fighting_capability="2 Men +1">2</level>
+		<level title="Swordsman" experience="4000" hitdice="3d6" fighting_capability="3 Men or Hero -1">3</level>
+		<level title="Hero" experience="8000" hitdice="4d6" fighting_capability="Hero">4</level>
+		<level title="Swashbuckler" experience="16000" hitdice="5d6+1" fighting_capability="5 Men or Hero +1">5</level>
+		<level title="Myrmidon" experience="32000" hitdice="6d6" fighting_capability="6 Men or Hero +1">6</level>
+		<level title="Champion" experience="64000" hitdice="7d6+1" fighting_capability="Superhero -1">7</level>
+		<level title="Superhero" experience="120000" hitdice="8d6+2" fighting_capability="Superhero">8</level>
+		<level title="Lord" experience="240000" hitdice="9d6+3" fighting_capability="Superhero +1">9</level>
+		<level title="Lord" experience="480000" hitdice="10d6+1" fighting_capability="Superhero +1">10</level>
+		<level title="Lord" experience="960000" hitdice="10d6+3" fighting_capability="Superhero +1">11</level>
+		<level title="Lord" experience="1900000" hitdice="11d6+1" fighting_capability="Superhero +2">12</level>
+		<level title="Lord" experience="3800000" hitdice="11d6+3" fighting_capability="Superhero +2">13</level>
+	</levels>
+	<attack_matrix>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">1</level>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">2</level>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">3</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">4</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">5</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">6</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">7</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">8</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">9</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">10</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">11</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">12</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">13</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">14</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">15</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">16</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">17</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">18</level>
+	</attack_matrix>
+	<saving_throws>
+		<level deathray_or_poison="12" all_wands="13" stone="14" dragon_breath="15" staves_and_spells="16">1</level>
+		<level deathray_or_poison="12" all_wands="13" stone="14" dragon_breath="15" staves_and_spells="16">2</level>
+		<level deathray_or_poison="12" all_wands="13" stone="14" dragon_breath="15" staves_and_spells="16">3</level>
+		<level deathray_or_poison="10" all_wands="11" stone="12" dragon_breath="13" staves_and_spells="14">4</level>
+		<level deathray_or_poison="10" all_wands="11" stone="12" dragon_breath="13" staves_and_spells="14">5</level>
+		<level deathray_or_poison="10" all_wands="11" stone="12" dragon_breath="13" staves_and_spells="14">6</level>
+		<level deathray_or_poison="8" all_wands="9" stone="10" dragon_breath="10" staves_and_spells="12">7</level>
+		<level deathray_or_poison="8" all_wands="9" stone="10" dragon_breath="10" staves_and_spells="12">8</level>
+		<level deathray_or_poison="8" all_wands="9" stone="10" dragon_breath="10" staves_and_spells="12">9</level>
+		<level deathray_or_poison="6" all_wands="7" stone="8" dragon_breath="8" staves_and_spells="10">10</level>
+		<level deathray_or_poison="6" all_wands="7" stone="8" dragon_breath="8" staves_and_spells="10">11</level>
+		<level deathray_or_poison="6" all_wands="7" stone="8" dragon_breath="8" staves_and_spells="10">12</level>
+		<level deathray_or_poison="4" all_wands="5" stone="5" dragon_breath="5" staves_and_spells="8">13</level>
+	</saving_throws>
+	</class>

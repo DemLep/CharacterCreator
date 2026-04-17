@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<class name="Magic-User">
+	<prime_req>Intelligence</prime_req>
+	<limitations>
+		<race>Human;Elf</race>
+		<weapon>Dagger</weapon>
+		<armor>None</armor>
+		<magic />
+	</limitations>
+	<levels>
+		<level title="Medium" experience="0" hitdice="1d6" fighting_capability="1 Man">1</level>
+		<level title="Seer" experience="2500" hitdice="1d6 +1" fighting_capability="1 Man +1">2</level>
+		<level title="Conjurer" experience="5000" hitdice="2d6" fighting_capability="2 Men">3</level>
+		<level title="Theurgist" experience="10000" hitdice="2d6 +1" fighting_capability="2 Men +1">4</level>
+		<level title="Thaumaturgist" experience="20000" hitdice="3d6" fighting_capability="3 Men">5</level>
+		<level title="Magician" experience="35000" hitdice="3d6+1" fighting_capability="3 Men +1">6</level>
+		<level title="Enchanter" experience="50000" hitdice="4d6" fighting_capability="Hero -1">7</level>
+		<level title="Warlock" experience="75000" hitdice="5d6" fighting_capability="Hero">8</level>
+		<level title="Sorcerer" experience="100000" hitdice="6d6+1" fighting_capability="Hero +1">9</level>
+		<level title="Necromancer" experience="200000" hitdice="7d6" fighting_capability="Wizard">10</level>
+		<level title="Wizard" experience="300000" hitdice="8d6+1" fighting_capability="Wizard">11</level>
+		<level title="Wizard" experience="400000" hitdice="8d6+2" fighting_capability="Wizard">12</level>
+		<level title="Wizard" experience="500000" hitdice="8d6+3" fighting_capability="Wizard">13</level>
+		<level title="Wizard" experience="600000" hitdice="8d6+4" fighting_capability="Wizard">14</level>
+		<level title="Wizard" experience="700000" hitdice="9d6+1" fighting_capability="Wizard +1">15</level>
+		<level title="Wizard" experience="800000" hitdice="9d6+2" fighting_capability="Wizard +2">16</level>
+		<level title="Wizard" experience="900000" hitdice="9d6+3" fighting_capability="Wizard +2">17</level>
+		<level title="Wizard" experience="1000000" hitdice="10d6+1" fighting_capability="Wizard +2">18</level>
+		<level title="Wizard" experience="2000000" hitdice="10d6+2" fighting_capability="Wizard +3">19</level>
+	</levels>
+	<attack_matrix>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">1</level>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">2</level>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">3</level>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">4</level>
+		<level ac2="17" ac3="16" ac4="15" ac5="14" ac6="13" ac7="12" ac8="11" ac9="10">5</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">6</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">7</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">8</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">9</level>
+		<level ac2="15" ac3="14" ac4="13" ac5="12" ac6="11" ac7="10" ac8="9" ac9="8">10</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">11</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">12</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">13</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">14</level>
+		<level ac2="12" ac3="11" ac4="10" ac5="9" ac6="8" ac7="7" ac8="6" ac9="5">15</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">16</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">17</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">18</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">19</level>
+		<level ac2="10" ac3="9" ac4="8" ac5="7" ac6="6" ac7="5" ac8="4" ac9="3">20</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">21</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">22</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">23</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">24</level>
+		<level ac2="8" ac3="7" ac4="6" ac5="5" ac6="4" ac7="3" ac8="2" ac9="1">25</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">26</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">27</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">28</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">29</level>
+		<level ac2="5" ac3="4" ac4="3" ac5="2" ac6="1" ac7="1" ac8="1" ac9="1">30</level>
+	</attack_matrix>
+	<saving_throws>
+		<level deathray_or_poison="13" all_wands="14" stone="13" dragon_breath="16" staves_and_spells="15">1</level>
+		<level deathray_or_poison="13" all_wands="14" stone="13" dragon_breath="16" staves_and_spells="15">2</level>
+		<level deathray_or_poison="13" all_wands="14" stone="13" dragon_breath="16" staves_and_spells="15">3</level>
+		<level deathray_or_poison="13" all_wands="14" stone="13" dragon_breath="16" staves_and_spells="15">4</level>
+		<level deathray_or_poison="13" all_wands="14" stone="13" dragon_breath="16" staves_and_spells="15">5</level>
+		<level deathray_or_poison="11" all_wands="12" stone="11" dragon_breath="14" staves_and_spells="12">6</level>
+		<level deathray_or_poison="11" all_wands="12" stone="11" dragon_breath="14" staves_and_spells="12">7</level>
+		<level deathray_or_poison="11" all_wands="12" stone="11" dragon_breath="14" staves_and_spells="12">8</level>
+		<level deathray_or_poison="11" all_wands="12" stone="11" dragon_breath="14" staves_and_spells="12">9</level>
+		<level deathray_or_poison="11" all_wands="12" stone="11" dragon_breath="14" staves_and_spells="12">10</level>
+		<level deathray_or_poison="8" all_wands="9" stone="8" dragon_breath="11" staves_and_spells="9">11</level>
+		<level deathray_or_poison="8" all_wands="9" stone="8" dragon_breath="11" staves_and_spells="9">12</level>
+		<level deathray_or_poison="8" all_wands="9" stone="8" dragon_breath="11" staves_and_spells="9">13</level>
+		<level deathray_or_poison="8" all_wands="9" stone="8" dragon_breath="11" staves_and_spells="9">14</level>
+		<level deathray_or_poison="8" all_wands="9" stone="8" dragon_breath="11" staves_and_spells="9">15</level>
+		<level deathray_or_poison="5" all_wands="6" stone="5" dragon_breath="8" staves_and_spells="3">16</level>
+		<level deathray_or_poison="5" all_wands="6" stone="5" dragon_breath="8" staves_and_spells="3">17</level>
+		<level deathray_or_poison="5" all_wands="6" stone="5" dragon_breath="8" staves_and_spells="3">18</level>
+		<level deathray_or_poison="5" all_wands="6" stone="5" dragon_breath="8" staves_and_spells="3">19</level>
+		<level deathray_or_poison="5" all_wands="6" stone="5" dragon_breath="8" staves_and_spells="3">20</level>
+	</saving_throws>
+	<spell_slots>
+		<level first="1" second="0" third="0" fourth="0" fifth="0" sixth="0">1</level>
+		<level first="2" second="0" third="0" fourth="0" fifth="0" sixth="0">2</level>
+		<level first="3" second="1" third="0" fourth="0" fifth="0" sixth="0">3</level>
+		<level first="4" second="2" third="0" fourth="0" fifth="0" sixth="0">4</level>
+		<level first="4" second="2" third="1" fourth="0" fifth="0" sixth="0">5</level>
+		<level first="4" second="2" third="2" fourth="0" fifth="0" sixth="0">6</level>
+		<level first="4" second="3" third="2" fourth="1" fifth="0" sixth="0">7</level>
+		<level first="4" second="3" third="3" fourth="2" fifth="0" sixth="0">8</level>
+		<level first="4" second="3" third="3" fourth="2" fifth="1" sixth="0">9</level>
+		<level first="4" second="4" third="3" fourth="3" fifth="2" sixth="0">10</level>
+		<level first="4" second="4" third="4" fourth="3" fifth="3" sixth="0">11</level>
+		<level first="4" second="4" third="4" fourth="4" fifth="4" sixth="1">12</level>
+		<level first="5" second="5" third="5" fourth="4" fifth="4" sixth="2">13</level>
+		<level first="5" second="5" third="5" fourth="4" fifth="4" sixth="3">14</level>
+		<level first="5" second="5" third="5" fourth="4" fifth="4" sixth="4">15</level>
+		<level first="5" second="5" third="5" fourth="5" fifth="5" sixth="5">16</level>
+		<level first="6" second="6" third="6" fourth="5" fifth="5" sixth="5">17</level>
+		<level first="6" second="6" third="6" fourth="6" fifth="6" sixth="6">18</level>
+	</spell_slots>
+	</class>
